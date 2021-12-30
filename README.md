@@ -11,6 +11,7 @@ Installation
     npm install --save jsonfile
     npm install --save express mysql body-parser hbs
     
+  ps: if node.js cannot work try to add node.js path to environtment
 **Run:**
     node app.js
 
