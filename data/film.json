@@ -1,0 +1,20 @@
+[
+  {
+    "film_id": 1640841047106,
+    "film_title": "Spiderman",
+    "film_genre": "Action",
+    "film_duration": "120"
+  },
+  {
+    "film_id": 1640841067583,
+    "film_title": "Pink Panther",
+    "film_genre": "Comedy",
+    "film_duration": "40"
+  },
+  {
+    "film_id": 1640841086662,
+    "film_title": "Insidious",
+    "film_genre": "Horror",
+    "film_duration": "100"
+  }
+]
