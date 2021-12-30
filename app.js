@@ -19,8 +19,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //set folder public sebagai static folder untuk static file
 app.use('/assets',express.static(__dirname + '/public'));
 //server listening
-app.listen(8000, () => {
-    console.log('Server is running at port 8000');
+app.listen(process.env.PORT || 3000, function(){
+    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
 
 const routes = require('./routes.js')(app, fs);

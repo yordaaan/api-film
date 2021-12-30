@@ -4,7 +4,7 @@
   "description": "rest api film",
   "main": "app.js",
   "scripts": {
-    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,9 @@
     "jquery": "^3.6.0",
     "mysql": "^2.18.1",
     "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
   }
 }
